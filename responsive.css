@@ -1,0 +1,79 @@
+@media only screen and (max-width:420px)
+{
+    #section1 h1
+    {
+        font-size: 50px;
+        padding-top:170px;
+    }
+    #section1 p
+    {
+        text-align: center;
+    }
+    #section1 form
+    {
+        margin:5px;
+        padding: -6px 250px;
+    }
+    #section1 form input
+    {
+        width:317px;
+    }
+    #section1 form select{
+        width: 200px;
+    }
+    #section1 div {
+        color: white;
+        padding: 85px 206px;
+    }
+
+
+
+
+
+    #listing #section1 h2
+   {
+       font-size: 50px;
+       padding-top:200px;
+   }
+   #listing #section1 p
+   {
+       width: 100%;
+       font-size: 18px;
+   }
+   #listing .overlay
+   {
+       height:calc(100vh - 80px);
+   }
+   #listing .btn1
+   {
+       margin:20px 5px;
+   }
+   .btn1 img
+   {
+    border-radius: 10px 10px 0px 0px;
+    /* row productbox */
+}
+.btn1
+{
+    display:inherit;
+    margin-bottom:30px;
+    box-shadow: 0px 0px 9px 1px rgba(175, 175, 175, 0.466);
+    border-radius: 10px;
+
+}
+
+#section1 .content 
+{
+    width: 100%;
+}
+#section1 .content h2
+{
+    margin-top:20px;
+}
+#section1 .row
+{
+    padding: -5px 94px;
+}
+
+}
+   

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College App</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+   
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+   
+</head>
+<body id="body">
+   
+    <div id="section1">
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn"><i class="fas fa-bars"></i></label>
+            <img src="img/logo.png" class="brandimg" alt="" width="150px" >
+            <ul>
+                <li><a href="">Sign In</a></li> 
+                <li><a id="sign">Sign Up</a></li>
+                <li><a target="_blank" href="contact.html">Contact Us</a></li> 
+                <button>Dark Mode</button>         
+            </ul>
+        </nav>
+            <div class="overlay">
+                <h1>Collegedunia</h1> 
+                 <p>Search Colleges, Courses and Exams</p>    
+                <form style="background-color: white;">
+                    <select id="city">
+                        <option value="">Select Location</option>
+                        <option value="Mumbai">Mumbai</option>
+                        <option value="Delhi">Delhi</option>
+                    </select>
+                    
+                    
+                    <i class="fas fa-search icon"></i>
+                    <input type="text" placeholder="Search for college, course or exam">
+                  
+                </form>
+            </div>
+       
+    </div>
+    
+    <div id="sectionm">
+        <div class="row">
+            <div class="col-lg-4">
+                <h2>Latest News</h2>
+            </div>
+            <div class="col-lg-8">
+                <marquee>
+                    <span class="newsBox" style="background-color: #FF205F;">JEE </span> Joint Entrance Examination – Main, formerly All India Engineering Entrance Examination. <span class="newsBox" style="background-color: #4EAE60;">NEET</span> The National Eligibility cum Entrance Test (Undergraduate) or NEET, formerly the All India Pre-Medical Test. <span class="newsBox" style="background-color: #694EAE;">UPCET</span> Uttar Pradesh State Entrance Examination.
+                </marquee>
+            </div>
+        </div>
+    </div>
+     <div id="section3">
+            
+        <div class="container">
+            <h2>Quick Search</h2>
+            <p>Select Your Study Goal</p>
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="box">
+                    <a href="link.htm" target="_blank"><img src="img/Eng.jpg" alt=""></a> 
+                    <p></a>Engineering</a></p> 
+                    </div>
+                </div>
+
+                <div class="col-lg-3">
+                    <div class="box">
+                        <a href="link.htm" target="_blank"><img src="img/mangement.jpg" alt=""></a> 
+                        <p>Mangement</a></p> 
+                    </div>
+                </div>
+            
+                <div class="col-lg-3">
+                    <div class="box">
+                        <a href="link.htm" target="_blank"><img src="img/diploma.jpg" alt=""></a> 
+                        <p>Diploma</a></p> 
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="box">
+                        <a href="link.htm" target="_blank"><img src="img/medical.jpg" alt=""></a> 
+                        <p>Medical</a></p> 
+                    </div>
+                </div>   
+            </div>
+        </div>
+    </div>
+  
+    
+    <!-- /* model Section */ -->
+
+    <div class="bg-model">
+        <div class="login" >
+          <div class="header" >
+            <h1>Login</h1>
+            <i class="fas fa-times" id="cross"  ></i>
+          </div>
+          <div class="body">
+            <form action="#" class="form">
+              <input type="text" placeholder="username" />
+              <input type="password" placeholder="Password" />
+            </form>
+          </div>
+          <div class="footer">
+            <button>Login </button>
+          </div>
+        </div>
+      </div>
+     
+      <footer>
+        <p style="text-align: center;">Copyright © 2023. All rights reserved with <b>Abhay Gupta</b></p>
+    </footer>
+      <script src="script.js"></script>
+     
+</body>
+</html>

@@ -1,0 +1,448 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*
+{
+    padding:0;
+    margin:0;
+    font-family: 'Poppins', sans-serif;
+}
+nav
+{
+   height: 80px;
+    background-color: rgba(0, 0, 0, 0.452);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+   
+    
+}
+nav ul li
+{
+    display: inline-block;
+    margin: 0px 15px;
+   
+}
+nav ul li a
+{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+nav ul
+{
+    margin: 0px;
+}
+button{
+    padding: 10px 30px;
+    border: none;
+    color:brown;
+}
+.myDark
+{
+    background-color: black ;
+    color: white;
+}
+.myDark nav
+{
+     background-color: black;
+     color: white;
+}
+.myDark nav ul li a
+{
+    color: white;
+    
+}
+.myDark .brandimg
+{
+    filter: invert(1);
+}
+
+
+.checkbtn
+{
+    color: black;
+    font-size: 25px;
+
+    right: 20px;
+    display: none;
+}
+#check
+{
+    display: none;
+}
+
+#section1
+{
+    background-image: url("img/college.jpg");
+   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+.overlay
+{
+    
+  
+    background-color: rgba(0, 0, 0, 0.452);
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+     
+    align-items: center;
+   
+}
+
+#section1 h1
+{
+    padding-top:280px;
+    font-size:80px;
+    color: white;
+    font-style: italic;
+
+}
+#section1 p
+{
+    font-size: 20px;
+    color:white;
+    letter-spacing: 1px;
+    font-weight: 500;
+    margin: 10px 0px;
+}
+#section1 select {
+    padding: 15px;
+    width: 200px;
+    border: none;
+    font-size: 18px;
+    border-right: 5px solid black;
+    outline: none;
+    
+   
+   
+}
+#section1 .icon {
+    font-size:15px;
+    color: rgb(199, 199, 199);
+    /* color: black; */
+    padding-left: 20px;
+    background-color: white;
+    padding: 20px 5px;
+    
+   
+    
+   
+   
+}
+#section1 input {
+    padding:15px;
+    width: 400px;
+    border: none;
+    color: black;
+    outline: none;
+    
+    
+   
+   
+   
+}
+
+#section1 div
+{
+    color: white;
+    padding:85px 250px;
+    
+}
+
+
+#section3
+{
+    padding-top: 30px;
+   
+    
+}
+
+#section3 .box img
+{
+    width: 100%;
+    height: 250px;
+    border-radius: 20px 20px 0px 0px;
+}
+#section3 .box p{
+    text-align: center;
+   
+}
+#section3 .box p a
+{
+    font-size: 20px;
+    font-weight: 400;   
+    text-decoration: none;
+    color:black;
+    padding: 0px 0px;
+}
+#section3 .box
+{
+   box-shadow: 0px 0px 10px 2px rgb(206, 206, 206);
+    padding-bottom: 30px;
+    border-radius: 20px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+#section3 h2
+{
+   font-size: 30px;
+}
+#section3 p
+{
+    font-size: 20px;
+}
+#section3 .box:hover
+{
+    transform: scale(1.1);
+    transition: all 2s;
+    cursor: pointer;
+}
+.checkbtn
+{
+    color: black;
+    font-size: 25px;
+    position: absolute;
+    right: 30px;
+    display: none;   
+
+}
+#check
+{
+    display: none;   
+}
+#section4 .container
+{
+    display:flex;
+    
+     
+}
+#section4
+{
+    padding:50px 0px;
+    background-color: #FFFBF7;
+}
+#section4 h2
+{
+    font-size: 40px;
+    padding-top: 170px;
+}
+#section4 p
+{
+    font-size: 20px;
+    margin:10px 0px;
+}
+.col-lg-8
+{
+   padding-left: 70px;
+}
+
+#section4 button{
+    padding:10px 30px;
+    font-size: 20px;
+    background-color: #E03546;
+    border:none;
+    color:white;
+}
+
+/* model Section */
+
+.bg-model
+{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.473);
+    position: absolute;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+     display: none;
+    transition: display 1s;
+}
+.bg-model.active
+{
+    display: flex;
+}
+
+.login {
+    position: absolute;
+    padding: 50px 25px;
+    
+    background: white;
+    
+    border-radius: 10px;
+    
+  }
+  
+  .header {
+    position: relative;
+  }
+  
+  .header h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #343335;
+    padding-bottom: 7px;
+    border-bottom: 2px solid #343335;
+  }
+  
+  .header i {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 20px;
+    color: #343335;
+  }
+  
+  .body .form input {
+    display: block;
+    padding: 10px;
+    margin: 25px 10px;
+    outline: none;
+    border: solid #343335 1px;
+    color: #343335;
+    transition: 0.4s;
+  }
+  
+  .body .form input:focus {
+    border-color: #343335;
+  }
+  
+  .footer {
+    position: relative;
+    height: 40px;
+    width: 100%;
+  }
+  
+  .footer button {
+    position: absolute;
+    padding: 10px;
+    min-width: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #343335;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: 0.4s;
+  }
+  
+  .footer button:hover {
+    background: #343335;
+  }
+
+  /*marquee Tag*/
+#sectionm{
+   margin-top: 25px;
+}
+  #sectionm marquee
+{
+    padding:25px 0px;
+    color:white;
+}
+#sectionm h2
+{
+    text-align: right;
+    padding-top:25px;
+    color:white;
+    font-size: 20px;
+    margin-right: 20px;
+}
+#sectionm .col-lg-4
+{
+    background-color: #4A4F10;
+}
+#sectionm .col-lg-8
+{
+    background-color: #52575E;
+}
+.newsbox
+{
+  padding-left: 5px;
+  margin-left: 20px;
+}
+
+.section7box
+{
+    position: relative;
+    text-align: center;
+}
+.section7box h3
+{
+    font-size: 20px;
+    margin:20px 0px;
+}
+#section7 img
+{
+    display: inline-block;
+    z-index: 1;
+}
+#section7 h1
+{
+    margin-bottom: 80px;;
+}
+#section7
+{
+    
+    background-image: url("img/review-bg.png");
+   
+    /* background-position: right; */
+ }
+ .circle
+{
+    padding:20px;
+    background-color: #FFB320;
+    border-radius: 50%;
+    position: absolute;
+    display: inline-block;
+    top:-30px;
+    left:20px;
+    color:white;
+    font-size: 18px;
+    font-weight: 600;
+   
+}
+  
+  
+@media only screen and (max-width: 420px)
+{
+    .checkbtn
+    {
+        display: block;   
+    }
+    nav
+    {
+        padding: 0px 20px;
+    }
+    nav ul
+    {
+        position: fixed;
+        top: 82px;
+        background-color:white;
+        width: 50%;
+        height: 100vh;
+        left:-100%;
+        transition: all 3s;
+    }
+    nav ul li 
+    {
+        display: block;
+        margin: 20px 20px;
+    }
+    nav ul li a
+    {
+       color: black;
+    }
+    #check:checked ~ul
+    {
+          left: 0px;
+    }
+    
+
+
+}

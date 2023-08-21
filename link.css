@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*
+#section1
+{
+    text-align: center;
+    background-image: url("img/college2.jpg");
+  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+   
+}
+/* #section2 .container
+{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+#section1 p {
+    color: white;
+    width: 800px;
+    font-size: 20px;  
+    margin-left: 145px;  
+}
+*/
+
+.overlay
+{
+    height: 80vh;
+}
+#section1 h2
+{
+    font-size: 80px;
+    color:white;
+    padding-top:0px;
+}
+#section1 p
+{
+    color:white;
+    width: 800px;
+    font-size: 20px;
+    
+}
+#section1 .row
+{
+    padding: 0px 164px;
+}
+#section2
+{
+    padding:100px 0px;
+
+    
+}
+
+.btn{
+    box-shadow: 0px 0px 9px 1px rgba(175, 175, 175, 0.466);
+    padding:25px;
+    text-align: left;
+}
+
+h2
+{
+    font-size: 30px;
+    font-weight: 500;
+    margin: 0px 0px;
+}
+.map
+{
+   
+    padding-left:0px;
+    padding-bottom: 20px;
+}
+.choice
+{
+   padding-left: 25px;
+}
+
+.choice label
+{
+    font-size: 20px;
+}
+
+.btn p
+{
+    font-size: 20px;
+    font-weight: 500;
+}
+/* .btn1
+{
+    
+    
+   
+    box-shadow: 0px 0px 9px 1px rgba(175, 175, 175, 0.466);
+    border-radius: 10px;
+
+}
+.btn1 img
+{
+    border-radius: 10px 0px 0px 10px;
+    
+   
+}
+.btn1 h2
+{
+    font-size: 30px;
+    font-weight: 500;
+    padding-top: 30px;
+}
+
+.btn2
+{
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin:10px 0px;
+
+}
+.value
+{
+    background-color: #24963F;
+    padding:3px 7px;
+    color:white;
+    font-weight: 600;
+    border-radius: 5px;
+}
+.value i
+{
+    font-size: 10px;
+   
+}
+.content
+{
+    margin-top:-45px ;
+    padding:20px;
+}
+.price
+{
+    font-size: 20px;
+    font-weight: 500;
+    margin:10px 0px;
+}
+.btn1 
+{
+    padding:0;
+   height:17%;
+    
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.btn
+{
+    box-shadow: 0px 0px 9px 1px rgba(175, 175, 175, 0.466);
+   
+    
+
+}
+.btn h2
+{
+    font-size: 30px;
+    font-weight: 500;
+    padding-right: 60px;
+}
+.choice
+{
+    padding-left: 30px;
+    padding-top: 30px;
+}
+.map
+{
+    padding-right:80px ;
+}
+.choice label
+{
+    font-size: 20px;
+}
+.btn p
+{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.btn1
+{
+    display: flex;
+    margin-bottom:30px;
+    box-shadow: 0px 0px 9px 1px rgba(175, 175, 175, 0.466);
+    border-radius: 10px;
+
+}
+.btn1 img
+{
+    border-radius: 10px 0px 0px 10px;
+}
+.btn1 h2
+{
+    font-size: 30px;
+    font-weight: 500;
+    padding-top: 30px;
+}
+
+#section2
+{
+    padding:100px 0px;
+}
+.btn2
+{
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin:10px 0px;
+
+}
+.value
+{
+    background-color: #24963F;
+    padding:3px 7px;
+    color:white;
+    font-weight: 600;
+    border-radius: 5px;
+}
+.value i
+{
+    font-size: 10px;
+   
+}
+.content
+{
+    padding:20px;
+}
+.price
+{
+    font-size: 20px;
+    font-weight: 500;
+    margin:10px 0px;
+}
+
+.btn1 .col-lg-5
+{
+    padding:0;
+    
+}./
